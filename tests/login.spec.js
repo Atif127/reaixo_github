@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/login.page.js';
 
+import 'dotenv/config';
+
 test.describe('Reaixo Login | Regression Suite', () => {
   let loginPage;
 
@@ -67,6 +69,7 @@ test.describe('Reaixo Login | Regression Suite', () => {
   // Priority: Critical
   // Precondition: Valid authorized test account configured.
   // Expected: Successful authentication and protected-page access.
+  // // LOGIN-004
   test('LOGIN-004: Login with valid credentials', async ({ page }) => {
     const email = process.env.TEST_USER_EMAIL;
     const password = process.env.TEST_USER_PASSWORD;
@@ -78,9 +81,10 @@ test.describe('Reaixo Login | Regression Suite', () => {
 
     await loginPage.login(email, password);
 
-    // TODO: Replace with the verified post-login URL.
-    // Also assert a reliable dashboard/account element.
-    await expect(page).not.toHaveURL(/\/login\/?$/);
+    // Verify successful login redirects to the client home page.
+    await expect(page).toHaveURL('https://reaixo.com/client/home', {
+      timeout: 15000,
+    });
   });
 
   // LOGIN-005
