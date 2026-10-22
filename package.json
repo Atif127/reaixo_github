@@ -4,7 +4,7 @@
   "description": "Reaixo QA automation using Playwright",
   "main": "index.js",
   "scripts": {
-     "test": "playwright test",
+    "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:login": "playwright test tests/login.spec.js",
     "test:report": "playwright show-report"
@@ -16,6 +16,7 @@
   ],
   "type": "module",
   "devDependencies": {
-    "@playwright/test": "^1.63.0"
+    "@playwright/test": "^1.63.0",
+    "dotenv": "^18.0.8"
   }
 }
