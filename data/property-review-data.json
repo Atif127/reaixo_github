@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "propertyType": "Single Family Residence",
+    "parcelNumber": "03.20D.1.27",
+    "yearBuilt": 2006,
+    "legalDescription": "Lot 82 Blk 55 Sec 12"
+  },
+
+  "address": {
+    "line1": "318 N Arrow Dr",
+    "line2": "318 N Arrow Dr 2",
+    "city": "Pocono Lake",
+    "state": "PA",
+    "zip": "18347",
+    "county": "Monroe County",
+    "latitude": 41.164395,
+    "longitude": -75.563895,
+    "displayAddress": "318 N Arrow Dr, Pocono Lake, PA 18347"
+  },
+
+  "propertyDetails": {
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2100,
+    "lotSizeSqFt": 15246,
+    "stories": 3,
+    "garageSpaces": 1,
+    "condition": "Good",
+    "heatingType": "Central, Ductless, Fireplace(s), Electric",
+    "coolingType": "Central Air, Ductless, Ceiling Fans"
+  },
+
+  "valuation": {
+    "estimatedValueLow": 785000,
+    "estimatedValueHigh": 868000,
+    "estimatedValue": 826700,
+    "valuationMethod": "Zillow Zestimate and comparable automated valuation estimates",
+    "lastSalePrice": 105000,
+    "lastSaleDate": "2005-11-17",
+    "pricePerSqFt": 417
+  },
+
+  "taxes": {
+    "assessedValue": 440680,
+    "annualPropertyTax": 14631.15,
+    "taxYear": 2025,
+    "millRate": 33.19,
+    "exemptions": ["none"],
+    "hoaFeeMonthly": 450
+  },
+
+  "salesHistory": {
+    "events": [
+      {
+        "salePrice": 299000,
+        "saleDate": "2023-04-13"
+      },
+      {
+        "salePrice": 299000,
+        "saleDate": "2023-02-25"
+      },
+      {
+        "salePrice": 218000,
+        "saleDate": "2021"
+      }
+    ]
+  },
+
+  "market": {
+    "medianHomePrice": 349900,
+    "medianDaysOnMarket": 61,
+    "pricePerSqFtTrend": "Approximately $224/sqft citywide as of August 2026; approximately -1.81% YoY",
+    "inventoryLevel": 221,
+    "marketTemperature": "Warm / Buyer-leaning"
+  }
+}

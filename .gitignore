@@ -1,0 +1,14 @@
+
+# Environment secrets
+.env
+
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Debug output
+playwright-debug.log
